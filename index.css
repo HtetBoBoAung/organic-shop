@@ -13,7 +13,7 @@
 .header {
      display: flex;
      flex-direction: column;
-     background-color: #000;
+     grid-column: 1/ span12;
 }
 
 .mini-navbar {
@@ -21,4 +21,256 @@
      background-size: cover;
      width: 100vw;
      height: 8vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.header-title {
+     font-size: 1.2rem;
+     font-weight: 600;
+     color: #fff;
+}
+
+.logo-bar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center; 
+     padding: 2rem; 
+}
+
+.logo-icon {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+}
+
+.logo-name {
+     color: green;
+     font-size: 3rem;
+     font-weight: 600;
+}
+
+.logo-para {
+     font-size: 1.5rem;
+     font-weight: 700;
+     color: green;
+}
+
+.logo-para1 {
+     font-size: 1.5rem;
+     font-weight: 700;
+     color: #000;
+}
+
+.searchbar-container {
+     display: flex;
+}
+
+.search-bar {
+     font-size: 1.1rem;
+     font-weight: 500;
+     padding: 1rem 4rem;
+     border-radius: 10px 0 0 10px;
+     border: none;
+     background-color: green;
+     margin-right: 1px;
+}
+
+.select-box {
+     font-size: 1.1rem;
+     font-weight: 500;
+     padding: 1rem 2rem;
+     border: none;
+     color: #fff;
+     background-color: green;
+}
+
+.search-icon {
+     font-size: 1.1rem;
+     font-weight: 500;
+     padding: 1rem;
+     border: none;
+     color: #fff;
+     border-radius: 0 10px 10px 0;
+     background-color: orangered;
+}
+
+.login-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+}
+
+.login-div {
+     display: flex;
+     gap: 1rem;
+}
+
+.login-para {
+     font-size: 1.1rem;
+     font-weight: 500;
+}
+
+.login-icon {
+     font-size: 1.3rem;
+     font-weight: 500;
+}
+
+.shopping-container {
+     display: flex;
+     gap: 1rem;
+     justify-content: center;
+     align-items: center;
+     border: 1px solid green;
+     padding: .25rem 1.5rem;
+     border-radius: 5px;
+}
+
+.cart-icon {
+     font-size: 1.5rem;
+     font-weight: 500;
+}
+
+.shopping-text {
+     font-size: 1.1rem;
+     font-weight: 500;
+     line-height: 1.5;
+}
+
+.price {
+     font-size: 1.1rem;
+     font-weight: 500;
+     color: green;
+}
+
+.navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem;
+     border: 1px solid #000;
+     border-radius: 15px;
+}
+
+.category-button {
+     font-size: 1.3rem;
+     font-weight: 500;
+     padding: 1rem 3rem;
+     color: #fff;
+     border-radius: 15px;
+     background-color: orangered;
+}
+
+.menu-list {
+     display: flex;
+     gap: 2rem;
+}
+
+.nav-items {
+     list-style: none;
+}
+
+.nav-link {
+     text-decoration: none;
+     font-size: 1.1rem;
+     font-weight: 500;
+}
+
+.social-container {
+     display: flex;
+     gap: 2rem;
+}
+
+.social-item {
+     list-style: none;
+}
+
+.social-link {
+     text-decoration: none;
+     font-size: 1.1rem;
+     font-weight: 500;
+}
+
+.main-section {
+     display: flex;
+     flex-direction: column;
+     grid-column: 1/ span 12;
+     border: 1px solid #000;
+     margin-top: 1rem;
+}
+
+.home-page {
+     display: grid;
+     grid-column: 1/ span 12;
+     gap: 10px;
+}
+
+.menu-sidebar {
+     grid-column: 1/ span 2;
+     padding: 1rem;
+     border-radius: 10px;
+     border: 1px solid #000;
+}
+
+.category-list {
+     display: flex;
+     flex-direction: column;
+     gap: .5rem;
+}
+
+.category-item {
+     list-style: none;
+     border: 1px solid #000;
+     padding: .5rem;
+     border-radius: 10px;
+}
+
+.category-link {
+     text-decoration: none;
+     font-size: 1.3rem;
+     font-weight: 500;
+}
+
+.category-icon {
+     font-size: 1.5rem;
+     font-weight: 500;
+}
+
+.image-card {
+     display: flex;
+     grid-column: 3/ span 8;
+     background: url(image/fruits-image.jpeg) no-repeat center;
+     background-size: cover;
+}
+
+.sale-disscount-container {
+     grid-column: 11/ span 2;
+     border: 1px solid #000;
+}
+
+.sale-disscount-card {
+     padding-left: 2rem;
+     padding-top: 2rem;
+}
+
+.sale-btn {
+     font-size: .9rem;
+     font-weight: 500;
+     color: #fff;
+     background-color: #ff4e2d;
+     border: none;
+     padding: .5rem;
+     border-radius: 10px;
+}
+
+.payment-div {
+     grid-column: 1/ span 12;
+     border: 1px solid blue;
+}
+
+.payment-list {
+     
 }
