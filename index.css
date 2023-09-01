@@ -23,7 +23,7 @@ body {
 .mini-navbar {
      background: url(image/high-calorie-fruits-1296x728-feature.webp) center no-repeat;
      background-size: cover;
-     width: 100vw;
+     width: 100%;
      height: 8vh;
      display: flex;
      justify-content: center;
@@ -392,4 +392,95 @@ body {
      font-size: 1.2rem;
      font-weight: 500;
      color: #FFFFFF91;
+}
+
+.product-section {
+     grid-column: 1/ span 12;
+}
+
+.card-container {
+     gap: 1rem;
+     display: flex;
+     width: 100%;
+     height: 100%;
+     border: 1px solid #000;
+     margin-top: 2rem;
+}
+
+.card {
+     flex-basis: 25%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+}
+
+.card-img {
+     flex-basis: 30%;
+     width: 250px;
+     height: 300px;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     border-radius: 15px;
+}
+
+.card-img {
+     cursor: pointer;
+}
+
+.card-info{
+     flex-basis: 30%;
+     display: flex;
+     width: 250px;
+     height: 300px;
+     flex-direction: column;
+     gap: 1rem;
+     justify-content: flex-start;
+     align-items: flex-start;
+     margin-top: 1rem;
+}
+
+.image-info {
+     font-size: 1.1rem;
+     font-weight: 500;
+     color: rgb(145, 142, 142);
+}
+
+.image-title {
+     font-size: 1.5rem;
+     font-weight: 700;
+     color: #000;
+}
+
+.star-icon-list {
+     display: flex;
+}
+
+.star-icon {
+     list-style: none;
+     font-size: .8rem;
+     font-weight: 500;
+     color: #007D56;
+
+}
+
+.img-price {
+     font-size: 1.4rem;
+     font-weight: 500;
+}
+
+.campaign-section {
+     grid-column: 1/ span 12;
+     border: 1px solid #000;
+     display: flex;
+     gap: 2rem;
+}
+
+.campaign-div {
+     grid-column: 1/ span 8;
+     border: 1px solid red;
+}
+
+.shop-link {
+     grid-column: 9/ span 4;
+     border: 1px solid red;
 }
